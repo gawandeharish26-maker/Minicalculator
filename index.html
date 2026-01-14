@@ -1,0 +1,52 @@
+<!-- Mini calculator application -->
+<!Doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"> 
+		<title>Mini Calculator</title>
+        <link rel="icon"  href="https://www.iconarchive.com/download/i100049/iynque/ios7-style/Calculator.1024.png"/>
+		<link rel= "stylesheet" href= "style.css"/>
+    </head>
+    <body>
+        <h1>Mini Calculator</h1>
+		<div class="calculator">	<!-- main container -->
+			<input type="text" class="display" disabled/>
+			<div>		<!-- main div -->
+				<div class="row">			<!-- rows -->
+					<button value="7">7</button>
+					<button value="8">8</button>
+					<button value="9">9</button>
+					<button value="+" class="operator">+</button>
+				</div>
+				<div class="row">
+					<button value="4">4</button>
+					<button value="5">5</button>
+					<button value="6">6</button>
+					<button value="-" class="operator">-</button>
+				</div>
+				<div class="row">
+					<button value="1">1</button>
+					<button value="2">2</button>
+					<button value="3">3</button>
+					<button value="*" class="operator">*</button>
+				</div>
+				<div class="row">
+					<button value="AC" class="operator">AC</button>
+					<button value="0">0</button>
+					<button value="/" class="operator">/</button>
+					<button value="=" class="operator">=</button>
+				</div>
+			</div>
+		</div>
+                         <!-- Description container -->
+        <div> 
+            <h2> Description:- </h2>
+            <p class = "calculator-desc">
+             The Mini Calculator is a basic arithmetic application developed
+             to perform fundamental mathematical operations such as addition, subtraction,
+             multiplication, and division. This calculator allows users to enter numerical 
+             values and compute results quickly and accurately through an easy-to-use interface. </p> 
+        </div>
+        <script src="Calci.js"> </script>
+    </body>
+</html>
